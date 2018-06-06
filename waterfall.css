@@ -1,0 +1,35 @@
+body {
+  font: 8px sans-serif;
+}
+
+.axis line {
+  fill: none;
+  stroke: none;
+  shape-rendering: crispEdges;
+}
+
+.axis path {
+  fill: none;
+  stroke: #A0A0A0;
+  shape-rendering: crispEdges;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.tooltip_standard{
+    visibility: hidden;
+    position: absolute;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.2em;
+    text-align: center;
+    padding: 0.1em;
+    background:#e3e3e3;
+    pointer-events: none;
+    font-size: 1em;
+    color: #999999;
+    width: auto;
+    height: auto;
+    z-index: 2000;
+}
